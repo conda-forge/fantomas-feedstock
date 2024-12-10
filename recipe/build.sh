@@ -27,3 +27,5 @@ tee ignored_packages.json << EOF
 ["Ignore", "Ionide.KeepAChangelog.Tasks"]
 EOF
 dotnet-project-licenses --input src/Fantomas/Fantomas.fsproj -t -d license-files -ignore ignored_packages.json
+
+rm ${PREFIX}/bin/dotnet
