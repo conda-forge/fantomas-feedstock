@@ -1,5 +1,5 @@
 context:
-  version: 6.3.16
+  version: "7.0.1"
 
 package:
   name: fantomas
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/fsprojects/fantomas/archive/v${{ version }}.tar.gz
-  sha256: a825f4135ec8b68f3b6df3106bead149cd8f1ce9ce5e1f509b7deb64941cc1c7
+  sha256: 4f32a782f11aa306ef20e8768233af3cc0c629464387ae393a32d2c1266d4330
 
 build:
-  number: 1
+  number: 0
   noarch: generic
 
 requirements:
