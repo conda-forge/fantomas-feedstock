@@ -1,5 +1,5 @@
 context:
-  version: 6.3.16
+  version: "7.0.3"
 
 package:
   name: fantomas
@@ -7,18 +7,18 @@ package:
 
 source:
   url: https://github.com/fsprojects/fantomas/archive/v${{ version }}.tar.gz
-  sha256: a825f4135ec8b68f3b6df3106bead149cd8f1ce9ce5e1f509b7deb64941cc1c7
+  sha256: 3f07202c34317849e6e3d68a3549ddfd3a278a96c83f487c88bf2be5dde210f9
 
 build:
-  number: 1
+  number: 0
   noarch: generic
 
 requirements:
   host:
-    - dotnet
-    - nuget-license
+    - dotnet =8
+    - nuget-license <3.1
   run:
-    - dotnet
+    - dotnet =8
 
 tests:
   - script:
