@@ -15,10 +15,10 @@ build:
 
 requirements:
   host:
-    - dotnet =8
-    - nuget-license <3.1
+    - dotnet =10
+    - nuget-license
   run:
-    - dotnet =8
+    - dotnet =10
 
 tests:
   - script:
