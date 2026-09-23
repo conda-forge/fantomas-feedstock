@@ -1,5 +1,5 @@
 context:
-  version: "7.0.3"
+  version: "8.0.2"
 
 package:
   name: fantomas
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/fsprojects/fantomas/archive/v${{ version }}.tar.gz
-  sha256: 3f07202c34317849e6e3d68a3549ddfd3a278a96c83f487c88bf2be5dde210f9
+  sha256: 951caf8e0056f649665eac7ef5febb52150ea62bef0ec8bd23f9980700734566
 
 build:
   number: 0
